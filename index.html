@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian</title>
+    <style>
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hidden-box p{
+    line-height: 1cm; 
+}
+.hidden-box ul{
+    
+    display: flex;
+   
+   flex-direction: column;
+   gap: 10px;
+}
+.number,.text{
+    color: rgb(36, 236, 86);
+    font-weight: bold;
+    font-size: 25px;
+}
+.item{
+    width: 700px;
+    margin: 100px auto;
+box-shadow: 0 10px 10px 0  aqua;
+padding: 10px;
+display: grid;
+grid-template-columns: auto 1fr;
+column-gap: 20px;
+row-gap: 20px;
+align-items: center ;
+
+}
+.hidden-box{
+    grid-column: 2/3;
+   /*display: none;*/
+}
+.accordian{
+    width: 700px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+    </style>
+</head>
+   <body class="body">
+    <div class="accordian">
+
+        <div class="item">
+            <h1 class="number">01</h1>
+            <h2 class="text">Some Movies in Which Hero Died</h2>
+            
+            <div class="hidden-box">
+                <p>Hero died because hero's character died in script. Hero's character died in script because writer wrote as hero died. If hero doesnt die, it means hero doesn't die.  </p>
+                <ul>
+                    <li>Hero Kochina Kashtam</li>
+                    <li>Swargam lo Hero</li> 
+                    <li>Hero leni Heroine</li>
+                    <li>Hero Poyadu</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <h1 class="number">01</h1>
+            <h2 class="text">Some Movies in Which Hero Died</h2>
+            
+            <div class="hidden-box">
+                <p>Hero died because hero's character died in script. Hero's character died in script because writer wrote as hero died. If hero doesnt die, it means hero doesn't die.  </p>
+                <ul>
+                    <li>Hero Kochina Kashtam</li>
+                    <li>Swargam lo Hero</li> 
+                    <li>Hero leni Heroine</li>
+                    <li>Hero Poyadu</li>
+                </ul>
+            </div>
+        </div> 
+        <div class="item">
+            <h1 class="number">01</h1>
+            <h2 class="text">Some Movies in Which Hero Died</h2>
+            
+            <div class="hidden-box">
+                <p>Hero died because hero's character died in script. Hero's character died in script because writer wrote as hero died. If hero doesnt die, it means hero doesn't die.  </p>
+                <ul>
+                    <li>Hero Kochina Kashtam</li>
+                    <li>Swargam lo Hero</li> 
+                    <li>Hero leni Heroine</li>
+                    <li>Hero Poyadu</li>
+                </ul>
+            </div>
+        </div> 
+         
+        </div>
+   
+    </body>
+   
+    </html>
